@@ -21,7 +21,6 @@ void Cmd(){
     system("killall Discord");
     printf("Editing of Discord to discord_ / Debug CPU 5\n");
     system("cd /Applications/Discord.app/Contents/MacOS && echo 'MKL_DEBUG_CPU_TYPE=5 ./Discord' > discord_");
-    printf(" Discord");
     
     Plist();
 }
